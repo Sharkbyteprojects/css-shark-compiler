@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.8)
 
-project ("CSS SHARK")
+project ("css-shark")
 
 add_library(csslib STATIC "cssshark.cpp")
 add_executable (cssshark "sjs.cpp")
