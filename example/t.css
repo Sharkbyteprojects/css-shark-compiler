@@ -1,0 +1,18 @@
+.hello{
+    color:rgb(255, 153, 0);
+}
+[vars]
+wheat
+rgb(208, 255, 0)
+
+redo
+lime
+[lines]
+
+body {
+    background-color: wheat;
+	[comment] hallo
+	[comment] Wie gehts??
+	[comment] Das sind kommentare
+    color: redo;
+}
