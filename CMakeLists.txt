@@ -12,7 +12,7 @@ target_link_libraries(cssshark csslib)
 # INSTALL
 install(TARGETS csslib DESTINATION lib)
 install(TARGETS cssshark DESTINATION bin)
-install(FILES "${PROJECT_BINARY_DIR}/cssshark.hpp" DESTINATION include)
+install(FILES "${PROJECT_SOURCE_DIR}/cssshark.hpp" DESTINATION include)
 
 # CPACK: 
 include(InstallRequiredSystemLibraries)
