@@ -26,7 +26,7 @@ jobs:
       run: cmake -S ${{github.workspace}} -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
     - name: Build
       # Build your program with the given configuration
-      run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}} ${{github.workspace}}/example/t.css
+      run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
     - name: Test
       run: ${{github.workspace}}/build/cssshark ${{github.workspace}}/example/t.css
     - name: Upload a Build Artifact
